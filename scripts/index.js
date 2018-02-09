@@ -10,7 +10,7 @@ program
 let folder = program.folder ? program.folder : './react-redux-boilerplate'
 
 
-download('trinchero18/valhalla-boilerplates', folder, function(err){
+download('trinchero18/valhalla-boilerplates/tree/master/boilerplates/react-redux', folder, function(err){
     if(err)
     console.log(err)
 })
