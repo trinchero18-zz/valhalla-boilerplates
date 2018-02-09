@@ -1,7 +1,9 @@
-<div style="display:flex; align-items: center;">
-    <h1> Valhalla Boilerplates<h1>  
-    <img src="https://i.imgur.com/4a6QgdP.png" width="100" style="margin-left: 20px">
-</div>
+<p align="center">
+  <br>
+  <img src="https://i.imgur.com/4a6QgdP.png" width="200" style="margin-left: 20px">
+  <br>
+  <h1 align="center">Valhalla Boilerplates</h1>
+</p>
 
 ## Installation
 
