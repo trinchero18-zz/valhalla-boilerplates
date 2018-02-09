@@ -15,4 +15,7 @@
 
 ```bash
     viki --folder <folder_name>
+    cd <folder_name>
+    yarn install
+    npm start
 ```
