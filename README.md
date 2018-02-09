@@ -15,7 +15,7 @@ This is an initiative of Valhalla Team that allows you to start a FE project wit
 
 ### React/Redux Stack:
 
-react - redux - reselect - sagas - react-router - styled-components
+react - redux - reselect - sagas - react-router - styled-components - axios
 
 ```bash
     viki --folder <folder_name>
