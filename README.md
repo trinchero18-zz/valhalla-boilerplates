@@ -18,7 +18,7 @@ This is an initiative of Valhalla Team that allows you to start a FE project wit
 react - redux - reselect - sagas - react-router - styled-components - axios
 
 ```bash
-    viki --folder <folder_name>
+    viki init <folder_name>
     cd <folder_name>
     yarn install
     npm start
