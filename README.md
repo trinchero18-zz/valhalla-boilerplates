@@ -3,7 +3,7 @@
 </p>
 
 ## What about this?
-This is an initiative of Valhalla Team that allows you to start a project with structure easy to walk in and a basic tech stack.
+This is an initiative of Valhalla Team that allows you to start a FE project with structure easy to walk in and a basic tech stack.
 
 ## Installation.
 
@@ -13,7 +13,10 @@ This is an initiative of Valhalla Team that allows you to start a project with s
 
 ## Boilerplates (directly from Valhalla).
 
-### React/Redux Stack: react - redux - reselect - sagas - react-router - styled-components.
+### React/Redux Stack:
+
+react - redux - reselect - sagas - react-router - styled-components
+
 ```bash
     viki --folder <folder_name>
     cd <folder_name>
