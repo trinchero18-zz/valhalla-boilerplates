@@ -1,0 +1,29 @@
+{
+  "name": "valhalla-boilerplates",
+  "version": "0.0.1",
+  "description": "This is a command line to create a project with React and Redux",
+  "main": "index.js",
+  "bin": {
+    "viki": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trinchero18/valhalla-boilerplates.git"
+  },
+  "keywords": [
+    "viki"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trinchero18/valhalla-boilerplates/issues"
+  },
+  "homepage": "https://github.com/trinchero18/valhalla-boilerplates#readme",
+  "dependencies": {
+    "commander": "^2.14.1",
+    "download-github-repo": "^0.1.4"
+  }
+}
