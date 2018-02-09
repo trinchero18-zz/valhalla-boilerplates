@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trinchero18/react-redux-boilerplate.git"
+    "url": "git+https://github.com/trinchero18/valhalla-boilerplates.git"
   },
   "keywords": [
     "viki"
@@ -19,9 +19,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trinchero18/react-redux-boilerplate/issues"
+    "url": "https://github.com/trinchero18/valhalla-boilerplates/issues"
   },
-  "homepage": "https://github.com/trinchero18/react-redux-boilerplate#readme",
+  "homepage": "https://github.com/trinchero18/valhalla-boilerplates#readme",
   "dependencies": {
     "commander": "^2.14.1",
     "download-github-repo": "^0.1.4"
