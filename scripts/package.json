@@ -1,7 +1,7 @@
 {
   "name": "valhalla-boilerplates",
-  "version": "0.0.1",
-  "description": "This is a command line to create a project with React and Redux",
+  "version": "1.0.0",
+  "description": "This is a command line to create a projects",
   "main": "index.js",
   "bin": {
     "viki": "./index.js"
