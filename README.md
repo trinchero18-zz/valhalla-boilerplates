@@ -1,18 +1,19 @@
 <p align="center">
-  <br>
-  <img src="https://i.imgur.com/4a6QgdP.png" width="200" style="margin-left: 20px">
-  <br>
-  <h1 align="center">Valhalla Boilerplates</h1>
+  <img src="https://i.imgur.com/AuyAhuS.png" width="60%">
 </p>
 
-## Installation
+## What about this?
+This is an initiative of Valhalla Team that allows you to start a project with structure easy to walk in and a basic tech stack.
+
+## Installation.
 
 ```bash
     npm install valhalla-boilerplates -g
 ```
 
-## Create a React-Redux app
+## Boilerplates (directly from Valhalla).
 
+### React/Redux Stack: react - redux - reselect - sagas - react-router - styled-components.
 ```bash
     viki --folder <folder_name>
     cd <folder_name>
