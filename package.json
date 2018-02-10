@@ -1,7 +1,7 @@
 {
   "name": "valhalla-boilerplates",
   "version": "1.0.0",
-  "description": "This is a command line to create a projects",
+  "description": "This is an initiative of Valhalla Team that allows you to start a FE project with structure easy to walk in and a basic tech stack.",
   "main": "index.js",
   "bin": {
     "viki": "./scripts/viki/index.js"
