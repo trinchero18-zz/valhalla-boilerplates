@@ -4,7 +4,7 @@
   "description": "This is a command line to create a projects",
   "main": "index.js",
   "bin": {
-    "viki": "./index.js"
+    "viki": "./scripts/viki/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,6 +24,6 @@
   "homepage": "https://github.com/trinchero18/valhalla-boilerplates#readme",
   "dependencies": {
     "commander": "^2.14.1",
-    "download-github-repo": "^0.1.4"
+    "fs-extra": "^5.0.0"
   }
 }
