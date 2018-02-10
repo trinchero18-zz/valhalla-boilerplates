@@ -20,6 +20,6 @@ react - redux - reselect - sagas - react-router - styled-components - axios
 ```bash
     viki init <folder_name>
     cd <folder_name>
-    yarn install
+    npm install
     npm start
 ```
