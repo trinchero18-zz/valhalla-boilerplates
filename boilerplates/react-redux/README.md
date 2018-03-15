@@ -17,7 +17,7 @@ React - Redux - Sagas - Reselect - React-router - Styled-components - Axios - Je
     yarn start
 ```
 
-## How to run test suite:
+## How to run test suite?
 
 ```bash
     yarn test
