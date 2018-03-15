@@ -7,7 +7,7 @@
 --  manifest.json
 /src
 --  /core
---  --  Example
+--  --  /Example
 --  --  --  action.js
 --  --  --  reducer.js
 --  --  --  saga.js
