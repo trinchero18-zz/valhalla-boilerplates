@@ -1,6 +1,6 @@
 import { createSelector } from 'reselect';
 
-const example = store => store.questions.toJS().example;
+const example = store => store.example.toJS().example;
 
 export const getExampleToJS = createSelector(
     example,

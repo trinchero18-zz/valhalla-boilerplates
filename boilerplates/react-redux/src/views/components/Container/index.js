@@ -17,3 +17,6 @@ const ContainerStyled = styled.div`
     overflow-y: auto;
     overflow-x: hidden;
 `;
+
+ContainerStyled.displayName = 'ContainerStyled';
+Container.displayName = 'Container';

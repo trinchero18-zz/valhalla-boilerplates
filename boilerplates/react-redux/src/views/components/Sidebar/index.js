@@ -20,4 +20,5 @@ const Container = styled.div`
     background-color: #C4C4C4;
 `;
 
-export default Sidebar;
+Container.displayName = 'Container';
+Sidebar.displayName = 'Sidebar';

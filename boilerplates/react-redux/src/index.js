@@ -22,13 +22,9 @@ import registerServiceWorker from './registerServiceWorker';
 import { store, history } from './core/store';
 
 /**
- * Main container
- */
-import { App } from './views/containers/App';
-/**
  * Containers
  */
-import Example from './views/containers/Example';
+import Example from './views/containers/Example/container';
 
 /**
  * Global css file
@@ -41,9 +37,7 @@ import './main.css';
 ReactDOM.render(
     <Provider store={store}>
         <ConnectedRouter history={history}>
-        <App>
             <Route exact path="/" component={Example} />
-        </App>
         </ConnectedRouter>
     </Provider>,
     document.getElementById('root')
