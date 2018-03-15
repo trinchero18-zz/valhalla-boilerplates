@@ -13,13 +13,19 @@ This is an initiative of Valhalla Team that allows you to start a FE project wit
 
 ## Boilerplates (directly from Valhalla).
 
-### React/Redux Stack:
+### React / Redux / Sagas:
 
-react - redux - reselect - sagas - react-router - styled-components - axios
+Tech stack: React - Redux - Sagas - Reselect - React-router - Styled-components - Axios
 
 ```bash
     viki init <folder_name>
     cd <folder_name>
-    npm install
-    npm start
+    yarn install
+    yarn start
+```
+
+To run test suite:
+
+```bash
+    yarn test
 ```
