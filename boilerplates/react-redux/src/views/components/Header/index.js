@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export const Header = (props) => (
+export const Header = () => (
     <Container>
-        <h1 color="#FAFAFA">Header</h1>
+        <h1>Header</h1>
     </Container>
 );
 
@@ -20,3 +20,6 @@ const Container = styled.header`
     z-index: 999;
     color: #FAFAFA;
 `;
+
+Container.displayName = 'Container';
+Header.displayName = 'Header';
