@@ -24,7 +24,7 @@ import { store, history } from './core/store';
 /**
  * Containers
  */
-import Example from './views/containers/Example/container';
+import Example from './views/containers/Example';
 
 /**
  * Global css file
