@@ -43,27 +43,28 @@ React - Redux - Sagas - Reselect - React-router - Styled-components - Axios - Je
 -- /views
 --  --  /components
 --  --  --  /Container
---  --  --  --  /_specs
---  --  --  --  --  container.spec.js
+--  --  --  --  /__tests__
+--  --  --  --  --  container.test.js
 --  --  --  --  index.js
 --  --  --  /Header
---  --  --  --  /_specs
---  --  --  --  --  header.spec.js
+--  --  --  --  /__tests__
+--  --  --  --  --  header.test.js
 --  --  --  --  index.js
 --  --  --  /Layout
---  --  --  --  /_specs
---  --  --  --  --  layout.spec.js
+--  --  --  --  /__tests__
+--  --  --  --  --  layout.test.js
 --  --  --  --  index.js
 --  --  --  /Sidebar
---  --  --  --  /_specs
---  --  --  --  --  sidebar.spec.js
+--  --  --  --  /__tests__
+--  --  --  --  --  sidebar.test.js
 --  --  --  --  index.js
 --  --  /containers
 --  --  --  /Example
---  --  --  --  /_specs
---  --  --  --  --  example.spec.js
+--  --  --  --  /__tests__
+--  --  --  --  --  example.test.js
 --  --  --  --  container.js
 --  --  --  --  example.js
+--  --  --  --  index.js
 -- index.js
 -- main.css
 -- registerServiceWorker.js
