@@ -21,6 +21,8 @@ React - Redux - Sagas - Reselect - React-router - Styled-components - Axios - Je
 
 ```bash
     yarn test
+    // or
+    yarn test --coverage
 ```
 
 ## Scaffolding
@@ -37,6 +39,7 @@ React - Redux - Sagas - Reselect - React-router - Styled-components - Axios - Je
 --  --  --  reducer.js
 --  --  --  saga.js
 --  --  --  selector.js
+--  --  --  service.js
 --  --  reducers.js
 --  --  sagas.js
 --  --  store.js
@@ -44,31 +47,35 @@ React - Redux - Sagas - Reselect - React-router - Styled-components - Axios - Je
 --  --  /components
 --  --  --  /Container
 --  --  --  --  /__tests__
---  --  --  --  --  container.test.js
+--  --  --  --  --  index.test.js
 --  --  --  --  index.js
 --  --  --  /Header
 --  --  --  --  /__tests__
---  --  --  --  --  header.test.js
+--  --  --  --  --  index.test.js
 --  --  --  --  index.js
 --  --  --  /Layout
 --  --  --  --  /__tests__
---  --  --  --  --  layout.test.js
+--  --  --  --  --  index.test.js
 --  --  --  --  index.js
 --  --  --  /Sidebar
 --  --  --  --  /__tests__
---  --  --  --  --  sidebar.test.js
+--  --  --  --  --  index.test.js
 --  --  --  --  index.js
 --  --  /containers
 --  --  --  /Example
 --  --  --  --  /__tests__
---  --  --  --  --  example.test.js
+--  --  --  --  --  main.test.js
 --  --  --  --  container.js
---  --  --  --  example.js
+--  --  --  --  main.js
 --  --  --  --  index.js
 -- index.js
 -- main.css
 -- registerServiceWorker.js
 -- setupTests.js
+.eslintcache
+.eslintignore
+.eslintrc.json
+.gitignore
 package.json
 README.md
 yarn.lock
