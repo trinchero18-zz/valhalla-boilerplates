@@ -82,7 +82,6 @@ This structure has been set up to work with pre-commit hook which runs `lint` be
 -- main.css
 -- registerServiceWorker.js
 -- setupTests.js
-.eslintcache
 .eslintignore
 .eslintrc.json
 .gitignore
