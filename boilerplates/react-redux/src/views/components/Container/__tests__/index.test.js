@@ -1,17 +1,16 @@
+import { Container } from '../index';
+
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { Container } from '../index';
-
 describe('<Container />', () => {
-    const props = {
-        children: 'children'
-    };
+    
+    const children = 'children';
     let container;
 
     beforeEach(() => {
         container = shallow(
-            <Container>{props.children}</Container>
+            <Container>{ children }</Container>
         );
     });
 

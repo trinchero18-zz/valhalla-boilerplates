@@ -1,15 +1,15 @@
 import { Record } from 'immutable';
 
 const NewRecord = new Record({
-    example: null,
+    example: null
 });
 
-export function exampleReducer(state = new NewRecord(), { type, payload }) {
+export function exampleReducer (state = new NewRecord(), { type, payload }) {
     switch (type) {
-        case 'EXAMPLE_SET':
+    case 'EXAMPLE_SET':
         return state.set('example', payload);
-        
-        default:
+    
+    default:
         return state;
     }
 }

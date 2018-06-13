@@ -1,22 +1,15 @@
+import { ContainerStyled } from './styled';
 import React from 'react';
-import styled from 'styled-components';
+import { any } from 'prop-types';
 
-export const Container = (props) => (
+export const Container = ({ children }) => (
     <ContainerStyled>
-        {props.children}
+        { children }
     </ContainerStyled>
 );
 
-const ContainerStyled = styled.div`
-    position: relative;
-    top: 80px;
-    left: 50px;
-    height: calc(100vh - 130px);
-    width: calc(100% - 100px);
-    padding: 25px;
-    overflow-y: auto;
-    overflow-x: hidden;
-`;
+Container.propTypes = {
+    children: any
+};
 
-ContainerStyled.displayName = 'ContainerStyled';
 Container.displayName = 'Container';

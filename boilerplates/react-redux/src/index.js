@@ -1,43 +1,20 @@
-/**
- * React
- */
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-/**
- * Redux
- */
-import { Provider } from 'react-redux';
+import './main.css';
 import { ConnectedRouter } from 'react-router-redux';
-import { Route } from 'react-router'
 
-/**
- * create-react-app service worker
- */
-import registerServiceWorker from './registerServiceWorker';
-
-/**
- * Store and history
- */
-import { store, history } from './core/store';
-
-/**
- * Containers
- */
 import Example from './views/containers/Example';
 
-/**
- * Global css file
- */
-import './main.css';
+import { Provider } from 'react-redux';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Route } from 'react-router';
+import registerServiceWorker from './registerServiceWorker';
 
-/**
- * Main render function
- */
+import { history, store } from './core/store';
+
 ReactDOM.render(
-    <Provider store={store}>
-        <ConnectedRouter history={history}>
-            <Route exact path="/" component={Example} />
+    <Provider store={ store }>
+        <ConnectedRouter history={ history }>
+            <Route exact component={ Example } path="/" />
         </ConnectedRouter>
     </Provider>,
     document.getElementById('root')

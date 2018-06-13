@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-
-import { Layout } from '../../components/Layout';
 import { Container } from '../../components/Container';
+import { Layout } from '../../components/Layout';
+
+import React, { Component } from 'react';
 
 class Example extends Component {
 
@@ -20,9 +20,9 @@ class Example extends Component {
                     Example Container
                 </Container>
             </Layout>
-        )
+        );
     }
 
-};
+}
 
 export default Example;

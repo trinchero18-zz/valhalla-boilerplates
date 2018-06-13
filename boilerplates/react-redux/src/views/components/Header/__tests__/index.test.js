@@ -1,7 +1,7 @@
+import { Header } from '../index';
+
 import React from 'react';
 import { shallow } from 'enzyme';
-
-import { Header } from '../index';
 
 describe('<Header />', () => {
     let header;
@@ -20,9 +20,9 @@ describe('<Header />', () => {
         });
 
         it('always have <h1>', () => {
-            const container = header.find("h1");
+            const container = header.find('h1');
             expect(container).toHaveLength(1);
-        })
+        });
 
     });
 

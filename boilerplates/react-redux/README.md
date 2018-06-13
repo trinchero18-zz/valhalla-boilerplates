@@ -1,6 +1,6 @@
 ## Tech stack
 
-React - Redux - Sagas - Reselect - React-router - Styled-components - Axios - Jest - Enzyme
+React - Redux - Sagas - Reselect - React-router - Styled-components - Axios - Jest - Enzyme - Eslint
 
 ## How to start?
 

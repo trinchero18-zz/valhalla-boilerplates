@@ -15,7 +15,7 @@ This is an initiative of Valhalla Team that allows you to start a FE project wit
 
 ### React / Redux / Sagas:
 
-Tech stack: React - Redux - Sagas - Reselect - React-router - Styled-components - Axios - Jest - Enzyme
+Tech stack: React - Redux - Sagas - Reselect - React-router - Styled-components - Axios - Jest - Enzyme - Eslint
 
 ```bash
     viki init <folder_name>

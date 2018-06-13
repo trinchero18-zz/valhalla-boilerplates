@@ -1,6 +1,6 @@
 {
-  "name": "react-redux-boilerplate",
-  "version": "0.1.0",
+  "name": "valhalla-boilerplates--react-redux",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "axios": "^0.17.1",
@@ -23,12 +23,28 @@
     "styled-components": "^2.4.0"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.9.1",
+    "pre-commit": "^1.2.2",
     "react-scripts": "1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint ./ --cache --ignore-pattern .gitignore"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/core/**/services.js",
+      "!src/index.js",
+      "!src/registerServiceWorker.js"
+    ]
   }
 }

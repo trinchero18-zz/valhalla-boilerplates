@@ -1,9 +1,9 @@
-import { connect } from "react-redux";
+import Example from './main';
 
-import Example from './example';
+import { connect } from 'react-redux';
 
-function mapStateToProps(state) {
-  return {};
+function mapStateToProps (state) {
+    return {};
 }
 
 const mapDispatchToProps = {};

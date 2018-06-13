@@ -6,7 +6,7 @@ export function get () {
 
 export function set (payload) {
     return {
-        type: 'EXAMPLE_SET',
         payload,
+        type: 'EXAMPLE_SET'
     };
 }
