@@ -25,6 +25,16 @@ React - Redux - Sagas - Reselect - React-router - Styled-components - Axios - Je
     yarn test --coverage
 ```
 
+## How to run eslint?
+
+```bash
+    yarn lint
+```
+
+## Working with a repo?
+
+This structure has been set up to work with pre-commit hook which runs `lint` before your commit.
+
 ## Scaffolding
 
 ```
