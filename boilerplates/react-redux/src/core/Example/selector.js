@@ -1,8 +1,8 @@
 import { createSelector } from 'reselect';
 
-const example = store => store.example.toJS().example;
+const example = store => store.example.toJS().title;
 
-export const getExampleToJS = createSelector(
+export const exampleSelector = createSelector(
     example,
     example => example
 );

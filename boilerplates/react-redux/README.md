@@ -50,9 +50,9 @@ This structure has been set up to work with pre-commit hook which runs `lint` be
 --  --  --  saga.js
 --  --  --  selector.js
 --  --  --  service.js
---  --  reducers.js
---  --  sagas.js
---  --  store.js
+--  --  reducer.root.js
+--  --  saga.root.js
+--  --  store.config.js
 -- /views
 --  --  /components
 --  --  --  /Container

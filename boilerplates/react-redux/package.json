@@ -42,9 +42,13 @@
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
-      "!**/core/**/services.js",
       "!src/index.js",
-      "!src/registerServiceWorker.js"
+      "!src/registerServiceWorker.js",
+      "!src/styled/*",
+      "!**/styled.js",
+      "!**/containers/*/index.js",
+      "!**/core/**/services.js",
+      "!**/core/*.js"
     ]
   }
 }

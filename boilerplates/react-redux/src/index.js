@@ -9,7 +9,7 @@ import ReactDOM from 'react-dom';
 import { Route } from 'react-router';
 import registerServiceWorker from './registerServiceWorker';
 
-import { history, store } from './core/store';
+import { history, store } from './core/store.config';
 
 ReactDOM.render(
     <Provider store={ store }>

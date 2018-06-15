@@ -1,12 +1,7 @@
-export function get () {
-    return {
-        type: 'EXAMPLE_GET'
-    };
-}
+import { EXAMPLE_ACTION } from '../types';
 
-export function set (payload) {
+export function exampleActionCreator () {
     return {
-        payload,
-        type: 'EXAMPLE_SET'
+        type: EXAMPLE_ACTION
     };
 }

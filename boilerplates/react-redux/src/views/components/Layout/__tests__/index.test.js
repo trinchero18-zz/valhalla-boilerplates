@@ -14,18 +14,8 @@ describe('<Layout />', () => {
 
     describe('render', () => {
 
-        it('always render Header', () => {
-            const header = layout.find('Header');
-            expect(header).toHaveLength(1);
-        });
-
-        it('always render Sidebar', () => {
-            const sidebar = layout.find('Sidebar');
-            expect(sidebar).toHaveLength(1);
-        });
-
         it('should render children', () => {
-            expect(layout.prop('children')[2]).toBe('children');
+            expect(layout.prop('children')).toEqual('children');
         });
 
     });
