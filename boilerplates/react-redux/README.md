@@ -5,6 +5,7 @@ React - Redux - Sagas - Reselect - React-router - Styled-components - Axios - Je
 ## How to start?
 
 ```bash
+    npm install valhalla-boilerplates -g
     viki init <folder_name>
     cd <folder_name>
     yarn install
