@@ -1,20 +1,31 @@
 import './main.css';
+
 import { ConnectedRouter } from 'react-router-redux';
-
-import Example from './views/containers/Example';
-
 import { Provider } from 'react-redux';
-import React from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import { Route } from 'react-router';
+
 import registerServiceWorker from './registerServiceWorker';
 
+import routes from 'core/routes.config';
 import { history, store } from './core/store.config';
 
 ReactDOM.render(
     <Provider store={ store }>
         <ConnectedRouter history={ history }>
-            <Route exact component={ Example } path="/" />
+            <Fragment>
+                {
+                    routes.map(({ component, path }) =>
+                        <Route
+                            exact
+                            component={ component }
+                            key={ path }
+                            path={ path }
+                        />
+                    )
+                }
+            </Fragment>
         </ConnectedRouter>
     </Provider>,
     document.getElementById('root')

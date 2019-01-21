@@ -44,15 +44,18 @@ This structure has been set up to work with pre-commit hook which runs `lint` be
 --  index.html
 --  manifest.json
 /src
+--  /assets
+--  --  valhalla-logo.png
 --  /core
 --  --  /Example
 --  --  --  action.js
 --  --  --  reducer.js
---  --  --  saga.js
+--  --  --  sagas.js
 --  --  --  selector.js
 --  --  --  service.js
 --  --  reducer.root.js
---  --  saga.root.js
+--  --  routes.config.js
+--  --  sagas.root.js
 --  --  store.config.js
 -- /views
 --  --  /components
@@ -60,29 +63,24 @@ This structure has been set up to work with pre-commit hook which runs `lint` be
 --  --  --  --  /__tests__
 --  --  --  --  --  index.test.js
 --  --  --  --  index.js
---  --  --  /Header
---  --  --  --  /__tests__
---  --  --  --  --  index.test.js
---  --  --  --  index.js
+--  --  -   -   styled.js
 --  --  --  /Layout
---  --  --  --  /__tests__
---  --  --  --  --  index.test.js
---  --  --  --  index.js
---  --  --  /Sidebar
 --  --  --  --  /__tests__
 --  --  --  --  --  index.test.js
 --  --  --  --  index.js
 --  --  /containers
 --  --  --  /Example
 --  --  --  --  /__tests__
+--  --  --  --  --  container.test.js
 --  --  --  --  --  main.test.js
 --  --  --  --  container.js
---  --  --  --  main.js
 --  --  --  --  index.js
+--  --  --  --  main.js
 -- index.js
 -- main.css
 -- registerServiceWorker.js
 -- setupTests.js
+.env
 .eslintignore
 .eslintrc.json
 .gitignore
