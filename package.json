@@ -1,6 +1,6 @@
 {
   "name": "valhalla-boilerplates",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "This is an initiative of Valhalla Team that allows you to start a FE project with structure easy to walk in and a basic tech stack.",
   "main": "index.js",
   "bin": {
