@@ -1,6 +1,6 @@
 import { createSelector } from 'reselect';
 
-const example = store => store.example.toJS().title;
+const example = store => store.example.title;
 
 export const exampleSelector = createSelector(
     example,
