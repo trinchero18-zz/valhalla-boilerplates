@@ -1,19 +1,19 @@
 import './main.css';
 
-import { ConnectedRouter } from 'react-router-redux';
 import { Provider } from 'react-redux';
-import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
-import { Route } from 'react-router';
-
 import registerServiceWorker from './registerServiceWorker';
-
 import routes from 'core/routes.config';
+import React, { Fragment } from 'react';
+import { Route, Router } from 'react-router';
+
 import { history, store } from './core/store.config';
+
+const rootElement = document.getElementById('root');
 
 ReactDOM.render(
     <Provider store={ store }>
-        <ConnectedRouter history={ history }>
+        <Router history={ history }>
             <Fragment>
                 {
                     routes.map(({ component, path }) =>
@@ -26,9 +26,9 @@ ReactDOM.render(
                     )
                 }
             </Fragment>
-        </ConnectedRouter>
+        </Router>
     </Provider>,
-    document.getElementById('root')
+    rootElement
 );
 
 registerServiceWorker();
